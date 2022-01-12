@@ -40,10 +40,18 @@
 .f7{
     color: #122348; /* dark blue*/
 }
+.f8{
+    color:#FFFFFF;
+}
+
+.f9{
+    color:#141414;
+}
+
 h6 {
     font-family: 'Play';
-    font-size: 46px;
-    padding-top:100px;
+    font-size: 60px;
+    padding-top:125px;
     padding-left:100px;
     padding-right:100px;
     padding-bottom:25px;
@@ -55,16 +63,13 @@ body {
 .btn-xl{
     padding:65px 130px
 }
-a {
-    color:#FFFFFF
-}
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
     margin-bottom: 0;
-    /*border-radius: 0;*/
+    border-radius: 0;
 }
-    
+
     /* Add a gray background color and some padding to the footer */
 footer {
     background-color: #f2f2f2;
@@ -78,7 +83,16 @@ footer {
     background-size: cover;
 }
 
+.bg-img2 {
+    background-image: url('images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h3{
+    color:#FFFFFF;
+}
+h4{
     color:#FFFFFF;
 }
 
