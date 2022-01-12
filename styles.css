@@ -54,3 +54,8 @@ body {
 a {
     color:#FFFFFF
 }
+
+footer {
+    background-color:#8c52ff; /*violet*/
+    padding: 15px;
+}
