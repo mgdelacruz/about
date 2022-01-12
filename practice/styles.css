@@ -1,0 +1,36 @@
+.font-vi{
+    color: #6422b8; /* Violet */
+}
+.violet{
+    background-color: #6422b8; /* Violet */
+}
+.blue{
+    background-color: #00c4cc; /* Blue */
+}
+.pink{
+    background-color: #ff738e; /* Pink */
+}
+.purple{
+    background-color: #a548ff; /* Purple */
+}
+.yellow{
+    background-color: #ffb340; /* Yellow */
+}
+.orange{
+    background-color: #ff914d; /* Orange */
+}
+
+h6 {
+    font-family: 'Rum Raisin';
+    font-size: 48px;
+}
+body {
+    background-color: #a1ebb7; /* Green */
+    text-align: center
+}
+.btn-xl{
+    padding:65px 130px
+}
+a {
+    color:#FFFFFF
+}
