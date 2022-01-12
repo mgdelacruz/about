@@ -1,77 +1,87 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet'>
 
-<html lang = "en">
-  
-  <head>
-    
-      <title>Mariella Dela Cruz | BSCOE-UPD</title>
-      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="styles.css">
-      <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet'>
 
-  </head>
+</head>
+<body>
 
-  <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><h3>About</h3></a></li>
+        <li><a href="#"><h3>Education</h3></a></li>
+        <li><a href="#"><h3>Work and Affiliations</h3></a></li>
+        <li><a href="#"><h3>Contact Me</h3></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="row">
-                    <div class="col-lg-3">
-                            <img class="img-responsive" src="images/nodes.png" style="display:inline" alt="nodes">
-                    </div>
-                    <div class="col-lg-6">
-                        <h6>Mariella<br>Dela Cruz</h6>
-                        <p>B.S. COMPUTER ENGINEERING | UP DILIMAN</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <img class="img-responsive" src="images/nodes.png" style="display:inline" alt="nodes">
-                    </div>
-                </div>
-                <div class = "row"><br><br></div>
-                <div class = "row">
-                    <img class="img-responsive" src="images/my_photo.png" style="display:inline" alt="Mariella Dela Cruz">
-                </div>
-            </div>
-            <div class="col-lg-8">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="btn-group btn-group-justified">
-                            <a href="about.html" class="btn btn-xl c1"><h1>About Me</h1></a>
-                            <a href="educ.html" class="btn btn-xl c2"><h1>Education</h1></a>
-                        </div>
-                    <div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="btn-group btn-group-justified">
-                            <a href="awards.html" class="btn btn-xl c3"><h1>Awards</h1></a>
-                            <a href="work.html" class="btn btn-xl c4"><h2>Work Experience<br>and Affiliations</h2></a>
-                        </div>
-                    <div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="btn-group btn-group-justified">
-                            <a href="codes.html"class="btn btn-xl c5"><h1>Codes</h1></a>
-                            <a href="contact.html" class="btn btn-xl c6"><h1>Contact Me</h1></a>
-                        </div>
-                    <div>
-                </div>
-            </div>
+<div class="jumbotron bg-img">
+  <div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-lg-6">
+            <h6>Mariella<br>Dela Cruz</h6>
+            <p>B.S. Computer Engineering | UP Diliman</p>
         </div>
-        <div class="row">
-                <div class="col-lg-12">
-                        <footer class="container-fluid">
-                                <p>© 2021 Mariella G. Dela Cruz. All rights reserved.</p>
-                        </footer>
-                </div>
+        <div class="col-lg-6">
+            <img class="img-responsive" src="images/my_photo.png" style="display:inline" alt="Mariella Dela Cruz">
         </div>
     </div>
-  </body>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="container-fluid text-center f3">
+            <h2>"I am a diligent and hardworking fresh graduate
+                with a passion for software development
+                motivated to further expand my skill set
+                through being mentored and gaining experience
+                in building practical applications
+                and improving existing systems
+                to realize the best of my potential
+                and contribute to the betterment of society."</h2>
+  </div>
+</div>
+
+<div class="container-fluid text-center">    
+  <h2>Awards</h2><br>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <h4>1st Runner UP - Algolympics 2018: UP ACM Programming Competition</h4>
+      <img src="images/Algolympics.jpg" class="img-responsive" style="width:100%" alt="Algolympics Certificate">
+    </div>
+    <div class="col-sm-4"> 
+      <h4>University Scholar - 1st and 2nd Semester A.Y. 2020-2021</h4>
+      <img src="images/Univ_Scholar.jpg" class="img-responsive" style="width:100%" alt="Univ_Scholar">
+    </div>
+    <div class="col-sm-4"> 
+      <h4>College Scholar - 1st Semester A.Y. 2015-2016</h4>
+      <img src="images/UP_Seal.png" class="img-responsive" style="width:100%" alt="College Scholar">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>© 2021 Mariella G. Dela Cruz. All rights reserved.</p>
+</footer>
+
+</body>
 </html>

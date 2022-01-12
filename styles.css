@@ -6,7 +6,7 @@
     background-color: #03989e; /* Green */
 }
 .c2{
-    background-color: #cb6ce6; /* Pink */
+    background-color: #FFFFFF; /* Pink */
 }
 .c5{
     background-color: #004aad; /* blue */
@@ -35,7 +35,7 @@
     color: #8c52ff; /* purple */
 }
 .f3{
-    color: #5271ff; /* Light blue */
+    color: #086FD8; /* Light blue */
 }
 .f7{
     color: #122348; /* dark blue*/
@@ -43,10 +43,14 @@
 h6 {
     font-family: 'Play';
     font-size: 46px;
+    padding-top:100px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:25px;
 }
 body {
-    background-color: #122348; /* dark blue*/
-    color: #ffffff;
+    background-color:#086FD8; /* dark blue*/
+    color: #FFFFFF;
 }
 .btn-xl{
     padding:65px 130px
@@ -55,7 +59,29 @@ a {
     color:#FFFFFF
 }
 
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    /*border-radius: 0;*/
+}
+    
+    /* Add a gray background color and some padding to the footer */
 footer {
-    background-color:#8c52ff; /*violet*/
+    background-color: #f2f2f2;
     padding: 15px;
+    color:#122348;
+}
+
+.bg-img {
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    color:#FFFFFF;
+}
+
+img{
+    display:inline;
 }
