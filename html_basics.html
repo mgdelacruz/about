@@ -6,6 +6,12 @@
 
 <!-- The HTML document itself begins with <html> and ends with </html>. -->
 <html>
+
+    <head>
+        <title>Learning HTML</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+
     <!--The visible part of the HTML document is between <body> and </body>. -->
     <body>
         <h1>HTML BASICS</h1>
@@ -22,7 +28,6 @@
         <h4>This is HEADING 4</h4>
         <h5>This is HEADING 5</h5>
         <h6>This is HEADING 6</h6>
-        <br>
 
         <p>Note: closing paragraphs and headers automatically appends breaks</p>
         <br>
@@ -41,8 +46,63 @@
         <br>
 
         <h3>Images</h3>
-        <img src="lenna.png" alt="lenna" width="480" height="480">
+        <img src="images/lenna.png" alt="lenna" width="480" height="480">
         <p>HTML images are defined with the &lt;img&gt; tag. The source file (src), alternative text (alt), width, and height are provided as attributes.</p>
+
+        <hr>
+        <p>Note: This is a horizontal rule defined by the  &lt;hr&gt;tag</p>
+ 
+        <h1> HTML Display </h1>
+        <p> Browsers automatically remove any extra spaces and lines when the page is displayed.
+        Thus, making the use of &lt;br&gt; to start a new lines without starting a new paragraph necessary.
+        On the other hand, in the case that we do need to preserve spaces and line breaks such as in displaying poems,
+        we can make us of &lt;pre&gt; which defines preformatted text. To demonstrate we have this following example: </p>
+
+        <pre>
+        My Bonnie lies over the ocean.
+                    
+        My Bonnie lies over the sea.
+                    
+        My Bonnie lies over the ocean.
+                    
+        Oh, bring back my Bonnie to me.
+        </pre>
+
+        <hr>
+
+        <h1>HTML Styles</h1>
+        
+        <p>The HTML style attribute has the following syntax:</p>
+        <h4>&lt; tagname style = "property:value;" &gt; </h4>
+
+        <p>Styles can be applied to an entire page or just single elements.
+        It is neater to have a seperate file for styles. Here are some possible display modifications we can do:</p>
+        <br>
+        <p style ="background-color:powderblue;"> apply a background color </p>
+        <p style ="color:tomato;"> change the text color </p>
+        <p style ="font-family:cursive;"> change the text font</p>
+        <p style ="font-size:150%;"> change the text size</p>
+        <p style ="text-align:center;"> set the alignment </p>
+        <br>
+
+        <hr>
+
+         <h1>HTML Formatting</h1>
+        
+        <p> Commonly used text formatting in HTML:</p>
+        <br>
+        <b>Bold</b><br>
+        <strong>Strong (displayed bold by default but can be overwritten using CSS)</strong><br>
+        <i>Italic</i><br>
+        <em>Emphasized text (displayed italicized by default but can be overwritten using CSS)</em><br>
+        <small>Small (makes text appear smaller)</small><br>
+        <p> <mark>Highlights</mark> can be done by using the mark tag</p>
+        <p><del>Del:</del> del defines test that has been deleted from the document. Usually shown as strikethroughed text</p>
+        <p> <ins>Ins:</ins> defines text inserted in a document. Typically displayed as underlined text by default</p>
+        <p>Example of subscripted text:<sub>subscript</sub></p>
+        <p>Example of superscripted text:<sup>superscript</sup></p>
+
+        <br>
 
     </body>
 </html>
